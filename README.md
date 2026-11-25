@@ -4,7 +4,7 @@
 
 To design and verify a 4-bit Serial-In Parallel-Out (SIPO) Shift Register using Verilog HDL, and to observe its behaviour using a testbench and VCD waveform.
 
-## Theory / Synopsis
+## Theory / Synopsis 
 
 A shift register is a group of flip-flops connected in cascade, sharing a common clock, in which data is shifted from one flip-flop to the next on every active clock edge. In a Serial-In Parallel-Out (SIPO) shift register, one bit of data (sin) is fed in serially at every clock edge, and after several clock pulses the accumulated bits are available simultaneously at the parallel output Q[3:0].
 
